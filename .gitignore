@@ -1,0 +1,72 @@
+# =========================
+# React / Node
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+
+# =========================
+# Spring Boot / Java
+# =========================
+
+backend/target/
+backend/build/
+*.class
+
+# Gradle
+.gradle/
+
+# Maven
+.mvn/
+
+# Local configuration
+backend/application-local.properties
+backend/application-local.yml
+
+backend/.env
+
+
+# =========================
+# IntelliJ IDEA
+# =========================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
